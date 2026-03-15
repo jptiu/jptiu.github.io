@@ -157,6 +157,9 @@ a:hover {
 }
 
 .brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--mono);
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -165,6 +168,14 @@ a:hover {
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 10px 12px;
+}
+
+.brand-mark:hover {
+  text-decoration: none;
+}
+
+.brand-mark img {
+  display: block;
 }
 
 .brand-text {
